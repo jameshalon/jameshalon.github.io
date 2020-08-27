@@ -84,7 +84,13 @@ a {
   border-radius: 4px;
 }
 
+.links a.coming-soon {
+  color: #ffbf00 !important;
+  background-color: #454046;
+}
+
 .links a:hover {
+  color: #2d2a2e !important;
   background-color: #a6e22e;
 }
 
