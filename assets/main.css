@@ -11,7 +11,7 @@ article {
 }
 h1,
 h2 {
-  font-size: 32px;
+  font-size: 28px;
   color: #ffbf00;
 }
 h1 {
@@ -70,6 +70,16 @@ a {
 
 .links li {
   margin: 5px 0;
+}
+
+.callout {
+  background-color: #363d3e;
+  border-radius: 4px;
+  padding: 1px 12px 4px;
+}
+
+.callout h2 {
+  font-size: 36px;
 }
 
 .links a {
