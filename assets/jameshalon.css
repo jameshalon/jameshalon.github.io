@@ -400,3 +400,18 @@ only screen and (min-device-pixel-ratio: 2) {
   }
 
 }
+
+@media (max-width: 780px) {
+  nav {
+    display: none;
+  }
+
+  .content {
+    margin-top: 10px;
+  }
+
+  .title {
+    top: 80px;
+    right: -50px;
+  }
+}
