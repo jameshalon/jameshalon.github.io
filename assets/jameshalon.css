@@ -13,6 +13,14 @@ a {
   text-decoration: none;
 }
 
+footer {
+  text-align: right;
+  padding: 10px;
+  color: #FFBF00;
+  font-weight: 100;
+  font-size: 12px;
+}
+
 .title {
   color: #FFBF00;
   font-size: 22px;
@@ -26,7 +34,7 @@ a {
 
 nav {
   display: flex;
-  background-color: rgba(1, 0, 13, 0.44);
+  background-color: rgba(1, 0, 13, 0.85);
   font-size: 18px;
   font-weight: 900;
   padding: 10px; 
@@ -52,11 +60,11 @@ nav a {
 }
 
 nav a:hover {
-  color: #FFBF00;
+  color: #5cc4d8;
 }
 
 .content {
-  margin: 80px 0 80px 70px;
+  margin: 80px 40px 80px 60px;
   display: flex;
   justify-content: flex-start; 
   /* flex-flow: column; */ 
@@ -64,18 +72,22 @@ nav a:hover {
 }
 
 section {
+  max-width: 1400px;
+}
+
+section p {
   max-width: 850px;
 }
 
 section h1 {
   color: #FFBF00;
-  font-size: 28px;
+  font-size: 2.5em;
   font-weight: 900;
 }
 
 .releases {
   display: flex;
-  gap: 15px;
+  gap: 10px;
   flex-direction: row; 
   flex-wrap: wrap; 
   align-content: flex-start;
@@ -96,7 +108,8 @@ section h1 {
 
 .release-cover {
   background-size: 100px 100px;
-  height: 100px;
+  flex-shrink: 0;
+  flex-basis: 100px;
   width: 100px;
 }
 
@@ -160,6 +173,56 @@ section h1 {
   margin-left: 28px;
 }
 
+.resources {
+  display: flex;
+  gap: 10px;
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  align-content: flex-start;
+}
+
+.resource {
+  color: #fff;
+  padding: 10px;
+  align-items: center; 
+  display: flex;
+  width: 380px;
+  height: 100px;
+  background-color: rgba(1, 0, 13, 0.44);
+  gap: 15px;
+}
+
+.resource-logo {
+  background-color: #fff;
+  background-size: 100px 100px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 100px;
+  flex-basis: 100px;
+  height: 100px;
+}
+
+.resource-title {
+  font-weight: 900;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.biography img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.tag-line {
+  margin-top: 50px;
+  color: #FFBF00;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
 /* Images */
 .halon-logo {
   background-image: url(./icons/halon-logo-icon-1x.png);
@@ -212,12 +275,124 @@ section h1 {
   background-image: url(./icons/covers/no-games-cover.png);
 }
 
+.what-you-want-cover {
+  background-image: url(./icons/covers/what-you-want-cover.png);
+}
+
+.bootlegs-cover {
+  background-image: url(./icons/covers/bootlegs-cover.png);
+}
+
+.soundcloud-logo {
+  background-image: url(./icons/logos/soundcloud.png);
+}
+
+.spotify-logo {
+  background-image: url(./icons/logos/spotify.png);
+}
+
+.bandcamp-logo {
+  background-image: url(./icons/logos/bandcamp.png);
+}
+
+.mixcloud-logo {
+  background-image: url(./icons/logos/mixcloud.png);
+}
+
+.facebook-logo {
+  background-image: url(./icons/logos/facebook.png);
+}
+
+.instagram-logo {
+  background-image: url(./icons/logos/instagram.png);
+}
+
+.twitter-logo {
+  background-image: url(./icons/logos/twitter.png);
+}
+
+.twitch-logo {
+  background-image: url(./icons/logos/twitch.png);
+}
+
+.beatport-logo {
+  background-image: url(./icons/logos/beatport.png);
+}
+
+.youtube-logo {
+  background-image: url(./icons/logos/youtube.png);
+}
+
 
 /* High Res */
 @media only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
+
+  
+  nav {
+    display: none;
+  }
+
+  .content {
+    margin-top: 10px;
+  }
+
+  .title {
+    top: 80px;
+    right: -50px;
+  }
+
+  .releases, .resources {
+    gap: 20px;
+  }
+
+  .release {
+    gap: 20px;
+    padding: 10px;
+    width: 800px;
+    height: 220px;
+    font-size: 24px;
+  }
+
+  .resource {
+    gap: 20px;
+    padding: 20px;
+    width: 790px;
+    height: 200px;
+    font-size: 24px;
+  }
+
+  .release-cover, .resource-logo {
+    background-color: #fff;
+    background-size: 200px 200px;
+    flex-basis: 200px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .release-title, .resource-title {
+    font-size: 44px;
+    margin-bottom: 18px;
+  }
+
+  .release-label {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .release-desc {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  
+  .release-tags {
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+
 
   .halon-logo {
       background: url(./icons/halon-logo-icon-2x.png) no-repeat;
