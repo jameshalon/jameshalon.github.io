@@ -1,0 +1,227 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #333333;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #5cc4d8;
+  text-decoration: none;
+}
+
+.title {
+  color: #FFBF00;
+  font-size: 22px;
+  font-weight: 900;
+  position: fixed;
+  top: 145px;
+  right: -50px;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}
+
+nav {
+  display: flex;
+  background-color: rgba(1, 0, 13, 0.44);
+  font-size: 18px;
+  font-weight: 900;
+  padding: 10px; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-transform: uppercase;
+}
+
+nav > .menu-links {
+  align-items: center;   
+  display: flex;
+  flex-grow: 3;
+  gap: 30px;
+  justify-content: center;
+  width: 100%;
+}
+
+nav a {
+  color: #fff;
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: #FFBF00;
+}
+
+.content {
+  margin: 80px 0 80px 70px;
+  display: flex;
+  justify-content: flex-start; 
+  /* flex-flow: column; */ 
+  flex-direction: column;  
+}
+
+section {
+  max-width: 850px;
+}
+
+section h1 {
+  color: #FFBF00;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.releases {
+  display: flex;
+  gap: 15px;
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  align-content: flex-start;
+}
+
+.release {
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  width: 400px;
+  height: 120px;
+  background-color: rgba(1, 0, 13, 0.44);
+}
+
+.release-cover, .release-details {
+  margin: 10px;
+}
+
+.release-cover {
+  background-size: 100px 100px;
+  height: 100px;
+  width: 100px;
+}
+
+.release-title {
+  font-size: 22px;
+  font-weight: 900;
+  margin-bottom: 9px;
+}
+
+.release-label {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.release-desc {
+  font-size: 12px;
+  font-weight: 100;
+  margin-bottom: 6px;
+}
+
+.release-tags {
+  font-size: 10px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.stream-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.stream-list .past {
+  color: #887e8b;
+}
+
+.stream-list li {
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  text-indent: -0.7rem;
+}
+
+.stream-list li::before {
+  content: "📺 ";
+  font-size: 18px;
+}
+
+.stream-list .stream-title {
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 4px;
+}
+
+.stream-list .stream-time {
+  font-style: italic;
+}
+
+.stream-list .stream-desc {
+  margin-left: 28px;
+}
+
+/* Images */
+.halon-logo {
+  background-image: url(./icons/halon-logo-icon-1x.png);
+  background-size: 50px 50px;
+  height: 50px;
+  width: 52px;
+}
+
+.tectonic-fields-cover {
+  background-image: url(./icons/covers/tectonic-fields-cover.png);
+}
+
+.fallen-cover {
+  background-image: url(./icons/covers/fallen-cover.png);
+}
+
+.elevated-cover {
+  background-image: url(./icons/covers/elevated-cover.png);
+}
+
+.fall-sampler-cover {
+  background-image: url(./icons/covers/fall-sampler-cover.png);
+}
+
+.interstellar-cover {
+  background-image: url(./icons/covers/interstellar-medium-cover.png);
+}
+
+.echoes-vol-2-cover {
+  background-image: url(./icons/covers/echoes-vol-2-cover.png);
+}
+
+.atmospheric-waves-cover {
+  background-image: url(./icons/covers/atmospheric-waves-cover.png);
+}
+
+.md-talent-podcast-cover {
+  background-image: url(./icons/covers/talent-podcast-cover.png);
+}
+
+.lost-elements-cover {
+  background-image: url(./icons/covers/lost-elements-cover.png);
+}
+
+.strange-quarks-cover {
+  background-image: url(./icons/covers/strange-quarks-cover.png);
+}
+
+.no-games-cover {
+  background-image: url(./icons/covers/no-games-cover.png);
+}
+
+
+/* High Res */
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+  .halon-logo {
+      background: url(./icons/halon-logo-icon-2x.png) no-repeat;
+      background-size: 100px 100px;
+  }
+
+}
