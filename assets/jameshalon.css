@@ -94,16 +94,14 @@ section h1 {
 }
 
 .release {
+  padding: 10px;
   color: #fff;
   cursor: pointer;
   display: flex;
-  width: 400px;
-  height: 120px;
+  width: 380px;
+  min-height: 100px;
+  gap: 10px;
   background-color: rgba(1, 0, 13, 0.44);
-}
-
-.release-cover, .release-details {
-  margin: 10px;
 }
 
 .release-cover {
@@ -114,22 +112,22 @@ section h1 {
 }
 
 .release-title {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 900;
-  margin-bottom: 9px;
+  margin-bottom: 7px;
 }
 
 .release-label {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   font-style: italic;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .release-desc {
   font-size: 12px;
   font-weight: 100;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .release-tags {
@@ -329,71 +327,6 @@ section h1 {
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
-
-  
-  nav {
-    display: none;
-  }
-
-  .content {
-    margin-top: 10px;
-  }
-
-  .title {
-    top: 80px;
-    right: -50px;
-  }
-
-  .releases, .resources {
-    gap: 20px;
-  }
-
-  .release {
-    gap: 20px;
-    padding: 10px;
-    width: 800px;
-    height: 220px;
-    font-size: 24px;
-  }
-
-  .resource {
-    gap: 20px;
-    padding: 20px;
-    width: 790px;
-    height: 200px;
-    font-size: 24px;
-  }
-
-  .release-cover, .resource-logo {
-    background-color: #fff;
-    background-size: 200px 200px;
-    flex-basis: 200px;
-    width: 200px;
-    height: 200px;
-  }
-
-  .release-title, .resource-title {
-    font-size: 44px;
-    margin-bottom: 18px;
-  }
-
-  .release-label {
-    font-size: 36px;
-    margin-bottom: 10px;
-  }
-  
-  .release-desc {
-    font-size: 24px;
-    margin-bottom: 12px;
-  }
-  
-  .release-tags {
-    font-size: 20px;
-    font-style: italic;
-  }
-  
-
-
   .halon-logo {
       background: url(./icons/halon-logo-icon-2x.png) no-repeat;
       background-size: 100px 100px;
@@ -407,7 +340,7 @@ only screen and (min-device-pixel-ratio: 2) {
   }
 
   .content {
-    margin-top: 10px;
+    margin: 10px;
   }
 
   .title {
@@ -415,3 +348,24 @@ only screen and (min-device-pixel-ratio: 2) {
     right: -50px;
   }
 }
+
+@media (max-width: 480px) {
+  nav {
+    display: none;
+  }
+
+  .content {
+    margin: 10px;
+  }
+
+  .title {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transform: none;
+    top: auto;
+    right: auto;
+  }
+}
+
