@@ -241,6 +241,22 @@ section h1 {
   width: 52px;
 }
 
+.spring-2022-cover {
+  background-image: url(./icons/covers/spring-2022-cover.png);
+}
+
+.best-of-2021-cover {
+  background-image: url(./icons/covers/best-of-2021-cover.png);
+}
+
+.tell-you-an-history-cover {
+  background-image: url(./icons/covers/tell-you-an-history-cover.png);
+}
+
+.the-100-vol-2-cover {
+  background-image: url(./icons/covers/the-100-vol-2-cover.png);
+}
+
 .object-permenence-cover {
   background-image: url(./icons/covers/object-permenence-cover.png);
 }
