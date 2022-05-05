@@ -241,6 +241,10 @@ section h1 {
   width: 52px;
 }
 
+.fallen-remixes-cover {
+  background-image: url(./icons/covers/fallen-remixes-cover.png);
+}
+
 .spring-2022-cover {
   background-image: url(./icons/covers/spring-2022-cover.png);
 }
