@@ -13,6 +13,19 @@ a {
   text-decoration: none;
 }
 
+p.call-out {
+  border-left: solid 4px #FFBF00;
+  padding-left: 10px;
+}
+
+.on-hold {
+  color: rgb(126, 126, 126);
+}
+
+.on-hold a {
+  color: #377581;
+}
+
 footer {
   text-align: right;
   padding: 10px;
