@@ -254,6 +254,10 @@ section h1 {
   width: 52px;
 }
 
+.martinec-hope-cover{
+  background-image: url(./icons/covers/martinec-hope-cover.png);
+}
+
 .fallen-remixes-cover {
   background-image: url(./icons/covers/fallen-remixes-cover.png);
 }
