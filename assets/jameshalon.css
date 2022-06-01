@@ -254,6 +254,10 @@ section h1 {
   width: 52px;
 }
 
+.euphonious-remixes-cover {
+  background-image: url(./icons/covers/euphonious-remixes-cover.png);
+}
+
 .martinec-hope-cover{
   background-image: url(./icons/covers/martinec-hope-cover.png);
 }
