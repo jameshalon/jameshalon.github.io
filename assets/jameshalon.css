@@ -143,6 +143,10 @@ section h1 {
   margin-bottom: 7px;
 }
 
+.release-title.xtra-small {
+  font-size: 18px;
+}
+
 .release-label {
   font-size: 16px;
   font-weight: 500;
@@ -253,6 +257,15 @@ section h1 {
   background-size: 50px 50px;
   height: 50px;
   width: 52px;
+}
+
+.door-cover {
+  background-image: url(./icons/covers/door-cover.png);
+}
+
+
+.polyptych-150-cover {
+  background-image: url(./icons/covers/polyptych-150-cover.png);
 }
 
 .summer-2022-cover {
