@@ -259,6 +259,14 @@ section h1 {
   width: 52px;
 }
 
+.duality-cover {
+  background-image: url(./icons/covers/duality-cover.png);
+}
+
+.another-life-fall-2022-cover {
+  background-image: url(./icons/covers/another-life-fall-2022.png);
+}
+
 .door-cover {
   background-image: url(./icons/covers/door-cover.png);
 }
