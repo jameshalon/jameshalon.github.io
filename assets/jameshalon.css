@@ -259,6 +259,10 @@ section h1 {
   width: 52px;
 }
 
+.best-of-2022-cover {
+  background-image: url(./icons/covers/best-of-2022-cover.png);
+}
+
 .duality-cover {
   background-image: url(./icons/covers/duality-cover.png);
 }
