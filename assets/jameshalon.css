@@ -258,6 +258,13 @@ section h1 {
   height: 50px;
   width: 52px;
 }
+.contemplation-cover {
+  background-image: url(./icons/covers/contemplation-cover.png);
+}
+
+.fa-best-of-2022-cover {
+  background-image: url(./icons/covers/fa-best-of-2022-cover.png);
+}
 
 .best-of-2022-cover {
   background-image: url(./icons/covers/best-of-2022-cover.png);
