@@ -85,6 +85,11 @@ nav a:hover {
   flex-direction: column;  
 }
 
+.content.signup {
+  display: block;
+  min-height: 300px;
+}
+
 section {
   max-width: 1400px;
 }
