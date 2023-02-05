@@ -90,6 +90,12 @@ nav a:hover {
   min-height: 300px;
 }
 
+.form-entry {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
 section {
   max-width: 1400px;
 }
