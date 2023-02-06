@@ -97,11 +97,16 @@ nav a:hover {
 }
 
 .form-entry .temp-loading {
-  max-width: 600px;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .form-entry .temp-loading h3 {
   color: #FFBF00;
+}
+
+.form-entry .temp-loading p  {
+  font-size: 12px;
 }
 
 section {
