@@ -96,6 +96,14 @@ nav a:hover {
   padding-top: 30px;
 }
 
+.form-entry .temp-loading {
+  max-width: 600px;
+}
+
+.form-entry .temp-loading h3 {
+  color: #FFBF00;
+}
+
 section {
   max-width: 1400px;
 }
