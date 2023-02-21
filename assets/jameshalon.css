@@ -282,6 +282,16 @@ section h1 {
   height: 50px;
   width: 52px;
 }
+
+.thaumaturgy-cover {
+  background-image: url(./icons/covers/thaumaturgy-cover.png);
+}
+
+
+.mayanna-cover {
+  background-image: url(./icons/covers/mayanna-cover.png);
+}
+
 .contemplation-cover {
   background-image: url(./icons/covers/contemplation-cover.png);
 }
