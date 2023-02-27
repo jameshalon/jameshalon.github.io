@@ -283,6 +283,10 @@ section h1 {
   width: 52px;
 }
 
+.SAF-An-Intro-to-2023-cover {
+  background-image: url(./icons/covers/SAF-An-Intro-to-2023.png);
+}
+
 .thaumaturgy-cover {
   background-image: url(./icons/covers/thaumaturgy-cover.png);
 }
