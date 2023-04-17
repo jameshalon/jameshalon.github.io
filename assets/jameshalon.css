@@ -283,6 +283,10 @@ section h1 {
   width: 52px;
 }
 
+.fa-006-cover {
+  background-image: url(./icons/covers/fa-006-cover.png);
+}
+
 .SAF-An-Intro-to-2023-cover {
   background-image: url(./icons/covers/SAF-An-Intro-to-2023.png);
 }
