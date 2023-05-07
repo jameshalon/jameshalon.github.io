@@ -1,579 +1,566 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>James Halon</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="/assets/icons/apple-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="/assets/icons/apple-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="/assets/icons/apple-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="/assets/icons/apple-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="/assets/icons/apple-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="/assets/icons/apple-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="/assets/icons/apple-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="/assets/icons/apple-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/assets/icons/apple-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="/assets/icons/android-icon-192x192.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/assets/icons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="/assets/icons/favicon-96x96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/assets/icons/favicon-16x16.png"
-    />
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="./assets/jameshalon.css" rel="stylesheet" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PW2PBHTGDK"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-PW2PBHTGDK');
-    </script>
-    <!-- Meta Pixel Code -->
-    <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
+<head>
+  <title>James Halon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png" />
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="./assets/jameshalon.css" rel="stylesheet" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PW2PBHTGDK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-PW2PBHTGDK');
+  </script>
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
       'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '673974466465583');
-      fbq('track', 'PageView');
-      </script>
-      <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=673974466465583&ev=PageView&noscript=1"
-      /></noscript>
-      <!-- End Meta Pixel Code -->
-  </head>
-  <body>
-    <nav class="main-menu">
-      <div class="halon-logo"></div>
-      <div class="menu-links">
-        <a href="#streams">Live Streams</a>
-        <a href="#releases">music</a>
-        <a href="#resources">resources &amp; newsletter</a>
-        <a href="#bio">biography</a>
-      </div>
-    </nav>
-    <div class="title">james halon</div>
-    <div class="content">
-      <section class="live-stream" id="streams">
-        <h1>Live Streams</h1>
-        <div class="call-out">
-          <p>
-            I live stream DJ sets every Tuesday on
-            <a href="https://www.twitch.tv/jameshalon">Twitch.tv</a> and <a href="https://www.mixcloud.com/live/JamesHalon/">Mixcloud</a>. Every session has paired VJ mixes using HalonVision, which is a custom built programmatically generative mixing system that creates a new and responsive experience each time it is turned on.
-          </p>
-          <p>
-            If you miss a session, you can replay them at my
-            <a href="https://www.youtube.com/@jameshalon"
-              >YouTube</a
-            >
-            channel or on
-            <a href="https://www.mixcloud.com/JamesHalon/">Mixcloud</a>.
-          </p>
-          <ul class="stream-list">
-            <li>
-              <a href="https://www.twitch.tv/jameshalon">
-                <span class="stream-title">Melodic Dreams</span>
-                <span class="stream-time">Tuesday @ 5pm - 6pm Pacific</span>
-              </a>
-              <div class="stream-desc">
-                Progressive &amp; Melodic House. Lush soundscapes, relaxing vibes,
-                and deep bass-lines.
-              </div>
-            </li>
-          </ul>
-      </div>
-      </section>
-      <section class="releases-and-features" id="releases">
-        <h1>Releases & Features</h1>
-        <div class="releases">
-          <a class="release" href="https://jameshalon.fanlink.to/fa-mixed-006" target="_blank">
-            <div class="release-cover fa-006-cover"></div>
-            <div class="release-details">
-              <div class="release-title xtra-small">Mixed 006 - James Halon</div>
-              <div class="release-label">Future Avenue</div>
-              <div class="release-desc">An hour exclusive DJ mix of FA artists</div>
-              <div class="release-tags">Progressive House, Melodic House, Organic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/thaumaturgy" target="_blank">
-            <div class="release-cover thaumaturgy-cover"></div>
-            <div class="release-details">
-              <div class="release-title xtra-small">Thaumaturgy</div>
-              <div class="release-label">Session Road Music</div>
-              <div class="release-desc">Original Single with two remixes</div>
-              <div class="release-tags">Progressive House, Melodic House, Organic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/mayanna" target="_blank">
-            <div class="release-cover mayanna-cover"></div>
-            <div class="release-details">
-              <div class="release-title xtra-small">Mayanna</div>
-              <div class="release-label">Sounds and Frequencies Recordings</div>
-              <div class="release-desc">Original Single</div>
-              <div class="release-tags">Progressive House, Melodic House, Organic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/sound-avenue-mix-intro-2023" target="_blank">
-            <div class="release-cover SAF-An-Intro-to-2023-cover"></div>
-            <div class="release-details">
-              <div class="release-title xtra-small">An Intro to 2023</div>
-              <div class="release-label">Sound Avenue Labelgroup</div>
-              <div class="release-desc">A one and a half hour DJ mixset</div>
-              <div class="release-tags">Progressive House, Melodic House, Organic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/contemplation" target="_blank">
-            <div class="release-cover contemplation-cover"></div>
-            <div class="release-details">
-              <div class="release-title xtra-small">Contemplation</div>
-              <div class="release-label">Future Avenue</div>
-              <div class="release-desc">Original EP with three remixes</div>
-              <div class="release-tags">Progressive House, Melodic House, Organic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://www.beatport.com/release/best-of-2022/3965656" target="_blank">
-            <div class="release-cover fa-best-of-2022-cover"></div>
-            <div class="release-details">
-              <div class="release-title xtra-small">Best of 2022</div>
-              <div class="release-label">Future Avenue</div>
-              <div class="release-desc">Featuring Fallen (Nicolas Benedetti Remix)</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://www.beatport.com/release/best-of-2022/3955051" target="_blank">
-            <div class="release-cover best-of-2022-cover"></div>
-            <div class="release-details">
-              <div class="release-title xtra-small">Best of 2022</div>
-              <div class="release-label">Polyptych Limited</div>
-              <div class="release-desc">Featuring Darkness Prevails (Original Mix)</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/synchronicity" target="_blank">
-            <div class="release-cover duality-cover"></div>
-            <div class="release-details">
-              <div class="release-title xtra-small">Duality</div>
-              <div class="release-label">Future Avenue</div>
-              <div class="release-desc">Featuring Synchronicity (James Halon Remix)</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/striations-autumn-winter" target="_blank">
-            <div class="release-cover another-life-fall-2022-cover"></div>
-            <div class="release-details">
-              <div class="release-title xtra-small">AUTUMN / WINTER VIBES 2022</div>
-              <div class="release-label">Another Life Music</div>
-              <div class="release-desc">VA comp featuring Striations (Original Mix)</div>
-              <div class="release-tags">Progressive House, Melodic House & Techno</div>
-            </div>
-          </a>
-          <a class="release" href="https://on.soundcloud.com/SGwSR" target="_blank">
-            <div class="release-cover door-cover"></div>
-            <div class="release-details">
-              <div class="release-title xtra-small">Caroline Polachek - Door (James Halon Remix)</div>
-              <div class="release-desc">Bootleg Remix and Free Download</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://www.beatport.com/release/150-anniversary-selection/3848663" target="_blank">
-            <div class="release-cover polyptych-150-cover"></div>
-            <div class="release-details">
-              <div class="release-title xtra-small">150: ANNIVERSARY SELECTION</div>
-              <div class="release-label">Polyptych Limited</div>
-              <div class="release-desc">Featuring Darkness Prevails (Original Mix)</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://www.beatport.com/release/summer-2022/3807919" target="_blank">
-            <div class="release-cover summer-2022-cover"></div>
-            <div class="release-details">
-              <div class="release-title small">Summer 2022</div>
-              <div class="release-label">Future Avenue</div>
-              <div class="release-desc">Featuring The Storytellers (James Halon Remix)</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/polyptych-limited-year-two" target="_blank">
-            <div class="release-cover polyptych-year-two-cover"></div>
-            <div class="release-details">
-              <div class="release-title small">Year Two</div>
-              <div class="release-label">Polyptych Limited</div>
-              <div class="release-desc">Featuring Darkness Prevails (Original Mix)</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/EUPHONIOUS-REMIXES" target="_blank">
-            <div class="release-cover euphonious-remixes-cover"></div>
-            <div class="release-details">
-              <div class="release-title small">Euphonious (Remixes)</div>
-              <div class="release-label">Future Avenue</div>
-              <div class="release-desc">Featuring Multiverse (James Halon Remix)</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/fallen-remixes" target="_blank">
-            <div class="release-cover fallen-remixes-cover"></div>
-            <div class="release-details">
-              <div class="release-title small">Fallen (Remixes)</div>
-              <div class="release-label">Future Avenue</div>
-              <div class="release-desc">Remixes of my EP by Various Artists</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/martinec-hope" target="_blank">
-            <div class="release-cover martinec-hope-cover"></div>
-            <div class="release-details">
-              <div class="release-title small">Hope</div>
-              <div class="release-label">Martinec - Findike Records</div>
-              <div class="release-desc">Featuring "Hope (James Halon Remix)"</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://www.beatport.com/release/spring-2022/3702611" target="_blank">
-            <div class="release-cover spring-2022-cover"></div>
-            <div class="release-details">
-              <div class="release-title small">Spring 2022</div>
-              <div class="release-label">Future Avenue</div>
-              <div class="release-desc">Featuring "Fallen"</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/tell-you-an-history" target="_blank">
-            <div class="release-cover tell-you-an-history-cover"></div>
-            <div class="release-details">
-              <div class="release-title small">Tell You An History</div>
-              <div class="release-label">Future Avenue</div>
-              <div class="release-desc">Featuring "The Storytellers (James Halon Remix)"</div>
-              <div class="release-tags">Progressive House, Organic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/the-100-vol-2" target="_blank">
-            <div class="release-cover the-100-vol-2-cover"></div>
-            <div class="release-details">
-              <div class="release-title small">The 100, Vol. 2</div>
-              <div class="release-label">Forward Music</div>
-              <div class="release-desc">Featuring "Un Rêve"</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://plt.polyptychmusic.com/PLTL090" target="_blank">
-            <div class="release-cover object-permenence-cover"></div>
-            <div class="release-details">
-              <div class="release-title small">Object Permanence</div>
-              <div class="release-label">Polyptych Limited</div>
-              <div class="release-desc">Original 4 track EP</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/tectonic-fields" target="_blank">
-            <div class="release-cover tectonic-fields-cover"></div>
-            <div class="release-details">
-              <div class="release-title small">Tectonic Fields Remixes</div>
-              <div class="release-label">Martinec - Layer Caked Melodic</div>
-              <div class="release-desc">Remix</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/best-of-2021" target="_blank">
-            <div class="release-cover best-of-2021-cover"></div>
-            <div class="release-details">
-              <div class="release-title">Best of 2021</div>
-              <div class="release-label">Future Avenue</div>
-              <div class="release-desc">Featuring "Turns"</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/fallen" target="_blank">
-            <div class="release-cover fallen-cover"></div>
-            <div class="release-details">
-              <div class="release-title">Fallen</div>
-              <div class="release-label">Future Avenue</div>
-              <div class="release-desc">Original 4 track EP</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/geKV" target="_blank">
-            <div class="release-cover elevated-cover"></div>
-            <div class="release-details">
-              <div class="release-title">Elevated</div>
-              <div class="release-label">PDD Tamed</div>
-              <div class="release-desc">Original 2 track EP</div>
-              <div class="release-tags">Techno</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/gcTF" target="_blank">
-            <div class="release-cover fall-sampler-cover"></div>
-            <div class="release-details">
-              <div class="release-title">Fall Sampler 2021</div>
-              <div class="release-label">Future Avenue</div>
-              <div class="release-desc">Featuring "Turns"</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://smarturl.it/efpw012" target="_blank">
-            <div class="release-cover interstellar-cover"></div>
-            <div class="release-details">
-              <div class="release-title">Interstellar Medium</div>
-              <div class="release-label">Echoes From Past Worlds</div>
-              <div class="release-desc">Original 6 track EP, w/ a remix by Martinec</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://t.co/xLt1MNVhDu" target="_blank">
-            <div class="release-cover echoes-vol-2-cover"></div>
-            <div class="release-details">
-              <div class="release-title">Echoes Volume 2</div>
-              <div class="release-label">Echoes From Past Worlds</div>
-              <div class="release-desc">Featuring “Blue Northern”</div>
-              <div class="release-tags">Progressive House, Melodic House</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/atmoshperic-waves" target="_blank">
-            <div class="release-cover atmospheric-waves-cover"></div>
-            <div class="release-details">
-              <div class="release-title">Atmospheric Waves</div>
-              <div class="release-label">Halon Studios</div>
-              <div class="release-desc">Original 3 track EP</div>
-              <div class="release-tags">Techno, Melodic Techno, Progressive House</div>
-            </div>
-          </a>
-          <a class="release" href="https://soundcloud.com/melodicdeep/melodic-deep-talent-podcast-027-james-halon" target="_blank">
-            <div class="release-cover md-talent-podcast-cover"></div>
-            <div class="release-details">
-              <div class="release-title">Talent Podcast #27</div>
-              <div class="release-label">Melodic Deep</div>
-              <div class="release-desc">One hour DJ set</div>
-              <div class="release-tags">Melodic House & Techno, Progressive House</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/lost-elements" target="_blank">
-            <div class="release-cover lost-elements-cover"></div>
-            <div class="release-details">
-              <div class="release-title">Lost Elements EP</div>
-              <div class="release-label">Halon Studios</div>
-              <div class="release-desc">Original 2 track EP</div>
-              <div class="release-tags">Techno, Dark Techno</div>
-            </div>
-          </a>
-          <a class="release" href="https://jameshalon.fanlink.to/strange-quarks-ep" target="_blank">
-            <div class="release-cover strange-quarks-cover"></div>
-            <div class="release-details">
-              <div class="release-title">Strange Quarks EP</div>
-              <div class="release-label">Halon Studios</div>
-              <div class="release-desc">Original 2 track EP</div>
-              <div class="release-tags">Techno, Dark Techno</div>
-            </div>
-          </a>
-          <a class="release" href="https://halon.fanlink.to/gk-dpng" target="_blank">
-            <div class="release-cover no-games-cover"></div>
-            <div class="release-details">
-              <div class="release-title">Don't Play No Games</div>
-              <div class="release-label">Groovy Kaiju</div>
-              <div class="release-desc">Remix</div>
-              <div class="release-tags">Nu-disco</div>
-            </div>
-          </a>
-          <a class="release" href="https://fanlink.to/crVb" target="_blank">
-            <div class="release-cover what-you-want-cover"></div>
-            <div class="release-details">
-              <div class="release-title">What You Want EP</div>
-              <div class="release-label">Halon (US) - Hush Recordz</div>
-              <div class="release-desc">Original 4 track EP, w/ a remix by Dataspirit</div>
-              <div class="release-tags">Tech House, House</div>
-            </div>
-          </a>
-          <a class="release" href="https://soundcloud.com/jameshalon/sets/2019-original-bootleg-remixes" target="_blank">
-            <div class="release-cover bootlegs-cover"></div>
-            <div class="release-details">
-              <div class="release-title">Bootlegs 2019</div>
-              <div class="release-label">Halon Studios</div>
-              <div class="release-desc">Bootleg remixes for the 2019 Graffiti Mix series</div>
-              <div class="release-tags">Tech House, House</div>
-            </div>
-          </a>
-        </div>
-      </section>
-      <section class="music-resources" id="resources">
-        <h1>Resources &amp; Newsletter</h1>
-        <div class="call-out">
-        <p>
-          I have a weekly newsletter where I share updates about my music, discuss different topics and share various interests. It's also a great way for me to learn more about you. The newsletter is a two way conversation and I am always interested in learning more about the people that enjoy my music and DJing. <a href="./signup.html">Start the journey now!</a>
-        </p>
-        <p>
-          You can find my music at any of the following locations below. Also, 
-        </p>
-      </div>
-        <br />
-        <div class="resources">
-          <a class="resource" href="https://soundcloud.com/jameshalon" target="_blank">
-            <div class="resource-logo soundcloud-logo"></div>
-            <div class="resource-details">
-              <div class="resource-title">SoundCloud</div>
-              <div class="resource-desc">Listen to my releases, mixes and other various music shares.</div>
-            </div>
-          </a>
-          <a class="resource" href="https://open.spotify.com/artist/6gNb4QYPcQc6GN6I9r8KYb?si=9lkeSMtuQ4KfzSBiW0Sp7g" target="_blank">
-            <div class="resource-logo spotify-logo"></div>
-            <div class="resource-details">
-              <div class="resource-title">Spotify</div>
-              <div class="resource-desc">Listen to my official releases and remixes.</div>
-            </div>
-          </a>
-          <a class="resource" href="https://jameshalon.bandcamp.com" target="_blank">
-            <div class="resource-logo bandcamp-logo"></div>
-            <div class="resource-details">
-              <div class="resource-title">Bandcamp</div>
-              <div class="resource-desc">Listen and purchase music I have released under Halon Studios</div>
-            </div>
-          </a>
-          <a class="resource" href="https://www.beatport.com/artist/james-halon/940048" target="_blank">
-            <div class="resource-logo beatport-logo"></div>
-            <div class="resource-details">
-              <div class="resource-title">Beatport</div>
-              <div class="resource-desc">Listen and purchase my official releases and remixes.</div>
-            </div>
-          </a>
-          <a class="resource" href="https://www.twitch.tv/jameshalon" target="_blank">
-            <div class="resource-logo twitch-logo"></div>
-            <div class="resource-details">
-              <div class="resource-title">Twitch.tv</div>
-              <div class="resource-desc">Watch my livestreams every Tuesday & Thursday at 5pm Pacific</div>
-            </div>
-          </a>
-          <a class="resource" href="https://www.youtube.com/@jameshalon" target="_blank">
-            <div class="resource-logo youtube-logo"></div>
-            <div class="resource-details">
-              <div class="resource-title">YouTube</div>
-              <div class="resource-desc">Watch my livestream replays anytime. Replays are posted Wednesday & Friday morning</div>
-            </div>
-          </a>
-          <a class="resource" href="https://www.mixcloud.com/JamesHalon/" target="_blank">
-            <div class="resource-logo mixcloud-logo"></div>
-            <div class="resource-details">
-              <div class="resource-title">Mixcloud</div>
-              <div class="resource-desc">Listen to my livestream replays anytime. Replays are posted Wednesday & Friday morning</div>
-            </div>
-          </a>
-          <a class="resource" href="https://www.facebook.com/halondj" target="_blank">
-            <div class="resource-logo facebook-logo"></div>
-            <div class="resource-details">
-              <div class="resource-title">Facebook</div>
-              <div class="resource-desc">Postings about events, livestream reminders and new music announcements</div>
-            </div>
-          </a>
-          <a class="resource" href="https://www.instagram.com/djhalon/" target="_blank">
-            <div class="resource-logo instagram-logo"></div>
-            <div class="resource-details">
-              <div class="resource-title">Instagram</div>
-              <div class="resource-desc">Stream covers, playlists, events and other visual shares</div>
-            </div>
-          </a>
-        </div>
-      </section>
-      <section id="bio" class="biography">
-        <h1>Biography</h1>
-        <img src="assets/halon-headshot-sq.png" alt="James' Headshot" />
-        <h3>contact &amp; booking: contact @ jameshalon.com</h3>
-        <h3>promos: promos @ jameshalon.com</h3>
-        <p class="tag-line">DJ and producer of House, Melodic House, Progressive House &amp; Techno.</p>
-        <div class="call-out">
-          <p>
-            Based in Riverside CA, past residences in San Diego CA, San Francisco CA and Dallas TX.
-          </p> 
-          <p>
-            Starting out under the moniker DJ3 circa 1996, James Halon was a resident at Record Resource and played events in Denton and Dallas TX. Moving to San Francisco in 1999, James started weekly events with For The Music & helped found the music side of <a href="https://www.false-profit.com/">False Profit</a>.
-          </p>
-          <p>
-            James ran the sound system for False Profit at 43 Norfolk and put on many amazing nights at the warehouse. He has also joined forces and played with many crews and venues, including Dub Beautiful, Ambient Airlines, Space Cowboys, B-Family, Eklektic, Future Breaks, Tenderloft, Tags Trance Trip, GrooveTech Radio, Anon Salon, Trust, Wish, Mighty SF, DNA Lounge, 1015 Folsom, and many more.
-          </p> 
-          <p>
-            2004, James co-founded <a href="http://cedub.com/">Cedub Studios</a> and moved away from DJing to focus on production and engineering for local artists. During this time he helped create and launch Fake Science as a podcast, then expanded to online digital music distribution and A&R. He produced tracks under the Cell Culture act with Chris Walcott. He also produced tracks as The Clockmakers with DJ Yap, under the moniker DJ Bespoke.
-          </p>
-          <p>
-            In 2009, James moved from the Bay and headed to San Diego. After taking a longer than expected break to settle into his new home, James is built out his studio and has returned to producing and DJing. Starting in 2020, James began weekly live streams, featuring new, classic and original tracks focusing on all things House x Techno. In the summer of 2021, James was invited to become a resident of the San Diego based collective <a href="https://www.instagram.com/digitalcocoonsd/" target="_blank">Digital Cocoon</a>.
-          </p>
-          <p>
-            In the summer of 2022, James once again packed up and this time moved to Riverside, CA. There he has been able to expand his music studio and streaming rig, allowing him more time to write, produce and play music. He still regularly travels to San Diego to support and participate in <a href="https://www.instagram.com/digitalcocoonsd/" target="_blank">Digital Cocoon</a> events and other area shows.
-          </p>
-        </div>
-      </section>
-    </div>
-    <footer>All rights reserved, Copyright © 2018-2023</footer>
-    <!-- Drip -->
-    <script type="text/javascript">
-      var _dcq = _dcq || [];
-      var _dcs = _dcs || {};
-      _dcs.account = '4425514';
+    fbq('init', '673974466465583');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=673974466465583&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+</head>
 
-      (function() {
-        var dc = document.createElement('script');
-        dc.type = 'text/javascript'; dc.async = true;
-        dc.src = '//tag.getdrip.com/4425514.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(dc, s);
-      })();
-    </script>
-    <!-- end Drip -->
-  </body>
+<body>
+  <nav class="main-menu">
+    <div class="halon-logo"></div>
+    <div class="menu-links">
+      <a href="#streams">Live Streams</a>
+      <a href="#releases">music</a>
+      <a href="#resources">resources &amp; newsletter</a>
+      <a href="#bio">biography</a>
+    </div>
+  </nav>
+  <div class="title">james halon</div>
+  <div class="content">
+    <section class="live-stream" id="streams">
+      <h1>Live Streams</h1>
+      <div class="call-out">
+        <p>
+          I am currently running two series of live sets that air at different times. </p>
+
+        <p>The first is <b>Melodic Dreams</b>, a monthly series streamed live the first weekend of the month on <a
+            href="https://www.twitch.tv/jameshalon">Twitch.tv</a> and <a
+            href="https://www.mixcloud.com/live/JamesHalon/ ">Mixcloud Live</a>. I record the session and the replay is
+          available on <a href="https://www.youtube.com/@jameshalon">YouTube</a>, <a
+            href="https://soundcloud.com/jameshalon" target="_blank">SoundCloud</a> and <a
+            href="https://www.mixcloud.com/live/JamesHalon/">Mixcloud</a> the following Monday morning.
+        </p>
+        <p>
+          The second series is called <b>Breakdown Therapy</b>. Unlike previous series, this is an unrecorded live
+          experience focusing on being a laid back hang where I
+          talk with Twitch chat and play tunes. This series is streamed every Tuesday @ 4:30pm Pacific Time on <a
+            href="https://www.twitch.tv/jameshalon">Twitch.tv</a>. Make sure to follow to get notifications when each
+          series starts!
+        </p>
+        <ul class="stream-list">
+          <li>
+            <a href="https://www.twitch.tv/jameshalon">
+              <span class="stream-title">Melodic Dreams</span>
+              <span class="stream-time">First weekend of the month</span>
+            </a>
+            <div class="stream-desc">
+              Progressive &amp; Melodic House. Lush soundscapes, relaxing vibes,
+              and deep bass-lines.
+            </div>
+          </li>
+          <li>
+            <a href="https://www.twitch.tv/jameshalon">
+              <span class="stream-title">Breakdown Therapy</span>
+              <span class="stream-time">Every Tuesday @ 430-600pm Pacific Time</span>
+            </a>
+            <div class="stream-desc">
+              Wandering through all things House x Techno, a laid back hang session talking about anything that comes up
+              in the chat and playing tunes.
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="releases-and-features" id="releases">
+      <h1>Releases & Features</h1>
+      <div class="releases">
+        <a class="release" href="https://jameshalon.fanlink.to/fa-mixed-006" target="_blank">
+          <div class="release-cover fa-006-cover"></div>
+          <div class="release-details">
+            <div class="release-title xtra-small">Mixed 006 - James Halon</div>
+            <div class="release-label">Future Avenue</div>
+            <div class="release-desc">An hour exclusive DJ mix of FA artists</div>
+            <div class="release-tags">Progressive House, Melodic House, Organic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/thaumaturgy" target="_blank">
+          <div class="release-cover thaumaturgy-cover"></div>
+          <div class="release-details">
+            <div class="release-title xtra-small">Thaumaturgy</div>
+            <div class="release-label">Session Road Music</div>
+            <div class="release-desc">Original Single with two remixes</div>
+            <div class="release-tags">Progressive House, Melodic House, Organic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/mayanna" target="_blank">
+          <div class="release-cover mayanna-cover"></div>
+          <div class="release-details">
+            <div class="release-title xtra-small">Mayanna</div>
+            <div class="release-label">Sounds and Frequencies Recordings</div>
+            <div class="release-desc">Original Single</div>
+            <div class="release-tags">Progressive House, Melodic House, Organic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/sound-avenue-mix-intro-2023" target="_blank">
+          <div class="release-cover SAF-An-Intro-to-2023-cover"></div>
+          <div class="release-details">
+            <div class="release-title xtra-small">An Intro to 2023</div>
+            <div class="release-label">Sound Avenue Labelgroup</div>
+            <div class="release-desc">A one and a half hour DJ mixset</div>
+            <div class="release-tags">Progressive House, Melodic House, Organic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/contemplation" target="_blank">
+          <div class="release-cover contemplation-cover"></div>
+          <div class="release-details">
+            <div class="release-title xtra-small">Contemplation</div>
+            <div class="release-label">Future Avenue</div>
+            <div class="release-desc">Original EP with three remixes</div>
+            <div class="release-tags">Progressive House, Melodic House, Organic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://www.beatport.com/release/best-of-2022/3965656" target="_blank">
+          <div class="release-cover fa-best-of-2022-cover"></div>
+          <div class="release-details">
+            <div class="release-title xtra-small">Best of 2022</div>
+            <div class="release-label">Future Avenue</div>
+            <div class="release-desc">Featuring Fallen (Nicolas Benedetti Remix)</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://www.beatport.com/release/best-of-2022/3955051" target="_blank">
+          <div class="release-cover best-of-2022-cover"></div>
+          <div class="release-details">
+            <div class="release-title xtra-small">Best of 2022</div>
+            <div class="release-label">Polyptych Limited</div>
+            <div class="release-desc">Featuring Darkness Prevails (Original Mix)</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/synchronicity" target="_blank">
+          <div class="release-cover duality-cover"></div>
+          <div class="release-details">
+            <div class="release-title xtra-small">Duality</div>
+            <div class="release-label">Future Avenue</div>
+            <div class="release-desc">Featuring Synchronicity (James Halon Remix)</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/striations-autumn-winter" target="_blank">
+          <div class="release-cover another-life-fall-2022-cover"></div>
+          <div class="release-details">
+            <div class="release-title xtra-small">AUTUMN / WINTER VIBES 2022</div>
+            <div class="release-label">Another Life Music</div>
+            <div class="release-desc">VA comp featuring Striations (Original Mix)</div>
+            <div class="release-tags">Progressive House, Melodic House & Techno</div>
+          </div>
+        </a>
+        <a class="release" href="https://on.soundcloud.com/SGwSR" target="_blank">
+          <div class="release-cover door-cover"></div>
+          <div class="release-details">
+            <div class="release-title xtra-small">Caroline Polachek - Door (James Halon Remix)</div>
+            <div class="release-desc">Bootleg Remix and Free Download</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://www.beatport.com/release/150-anniversary-selection/3848663" target="_blank">
+          <div class="release-cover polyptych-150-cover"></div>
+          <div class="release-details">
+            <div class="release-title xtra-small">150: ANNIVERSARY SELECTION</div>
+            <div class="release-label">Polyptych Limited</div>
+            <div class="release-desc">Featuring Darkness Prevails (Original Mix)</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://www.beatport.com/release/summer-2022/3807919" target="_blank">
+          <div class="release-cover summer-2022-cover"></div>
+          <div class="release-details">
+            <div class="release-title small">Summer 2022</div>
+            <div class="release-label">Future Avenue</div>
+            <div class="release-desc">Featuring The Storytellers (James Halon Remix)</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/polyptych-limited-year-two" target="_blank">
+          <div class="release-cover polyptych-year-two-cover"></div>
+          <div class="release-details">
+            <div class="release-title small">Year Two</div>
+            <div class="release-label">Polyptych Limited</div>
+            <div class="release-desc">Featuring Darkness Prevails (Original Mix)</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/EUPHONIOUS-REMIXES" target="_blank">
+          <div class="release-cover euphonious-remixes-cover"></div>
+          <div class="release-details">
+            <div class="release-title small">Euphonious (Remixes)</div>
+            <div class="release-label">Future Avenue</div>
+            <div class="release-desc">Featuring Multiverse (James Halon Remix)</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/fallen-remixes" target="_blank">
+          <div class="release-cover fallen-remixes-cover"></div>
+          <div class="release-details">
+            <div class="release-title small">Fallen (Remixes)</div>
+            <div class="release-label">Future Avenue</div>
+            <div class="release-desc">Remixes of my EP by Various Artists</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/martinec-hope" target="_blank">
+          <div class="release-cover martinec-hope-cover"></div>
+          <div class="release-details">
+            <div class="release-title small">Hope</div>
+            <div class="release-label">Martinec - Findike Records</div>
+            <div class="release-desc">Featuring "Hope (James Halon Remix)"</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://www.beatport.com/release/spring-2022/3702611" target="_blank">
+          <div class="release-cover spring-2022-cover"></div>
+          <div class="release-details">
+            <div class="release-title small">Spring 2022</div>
+            <div class="release-label">Future Avenue</div>
+            <div class="release-desc">Featuring "Fallen"</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/tell-you-an-history" target="_blank">
+          <div class="release-cover tell-you-an-history-cover"></div>
+          <div class="release-details">
+            <div class="release-title small">Tell You An History</div>
+            <div class="release-label">Future Avenue</div>
+            <div class="release-desc">Featuring "The Storytellers (James Halon Remix)"</div>
+            <div class="release-tags">Progressive House, Organic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/the-100-vol-2" target="_blank">
+          <div class="release-cover the-100-vol-2-cover"></div>
+          <div class="release-details">
+            <div class="release-title small">The 100, Vol. 2</div>
+            <div class="release-label">Forward Music</div>
+            <div class="release-desc">Featuring "Un Rêve"</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://plt.polyptychmusic.com/PLTL090" target="_blank">
+          <div class="release-cover object-permenence-cover"></div>
+          <div class="release-details">
+            <div class="release-title small">Object Permanence</div>
+            <div class="release-label">Polyptych Limited</div>
+            <div class="release-desc">Original 4 track EP</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/tectonic-fields" target="_blank">
+          <div class="release-cover tectonic-fields-cover"></div>
+          <div class="release-details">
+            <div class="release-title small">Tectonic Fields Remixes</div>
+            <div class="release-label">Martinec - Layer Caked Melodic</div>
+            <div class="release-desc">Remix</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/best-of-2021" target="_blank">
+          <div class="release-cover best-of-2021-cover"></div>
+          <div class="release-details">
+            <div class="release-title">Best of 2021</div>
+            <div class="release-label">Future Avenue</div>
+            <div class="release-desc">Featuring "Turns"</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/fallen" target="_blank">
+          <div class="release-cover fallen-cover"></div>
+          <div class="release-details">
+            <div class="release-title">Fallen</div>
+            <div class="release-label">Future Avenue</div>
+            <div class="release-desc">Original 4 track EP</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/geKV" target="_blank">
+          <div class="release-cover elevated-cover"></div>
+          <div class="release-details">
+            <div class="release-title">Elevated</div>
+            <div class="release-label">PDD Tamed</div>
+            <div class="release-desc">Original 2 track EP</div>
+            <div class="release-tags">Techno</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/gcTF" target="_blank">
+          <div class="release-cover fall-sampler-cover"></div>
+          <div class="release-details">
+            <div class="release-title">Fall Sampler 2021</div>
+            <div class="release-label">Future Avenue</div>
+            <div class="release-desc">Featuring "Turns"</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://smarturl.it/efpw012" target="_blank">
+          <div class="release-cover interstellar-cover"></div>
+          <div class="release-details">
+            <div class="release-title">Interstellar Medium</div>
+            <div class="release-label">Echoes From Past Worlds</div>
+            <div class="release-desc">Original 6 track EP, w/ a remix by Martinec</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://t.co/xLt1MNVhDu" target="_blank">
+          <div class="release-cover echoes-vol-2-cover"></div>
+          <div class="release-details">
+            <div class="release-title">Echoes Volume 2</div>
+            <div class="release-label">Echoes From Past Worlds</div>
+            <div class="release-desc">Featuring “Blue Northern”</div>
+            <div class="release-tags">Progressive House, Melodic House</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/atmoshperic-waves" target="_blank">
+          <div class="release-cover atmospheric-waves-cover"></div>
+          <div class="release-details">
+            <div class="release-title">Atmospheric Waves</div>
+            <div class="release-label">Halon Studios</div>
+            <div class="release-desc">Original 3 track EP</div>
+            <div class="release-tags">Techno, Melodic Techno, Progressive House</div>
+          </div>
+        </a>
+        <a class="release" href="https://soundcloud.com/melodicdeep/melodic-deep-talent-podcast-027-james-halon"
+          target="_blank">
+          <div class="release-cover md-talent-podcast-cover"></div>
+          <div class="release-details">
+            <div class="release-title">Talent Podcast #27</div>
+            <div class="release-label">Melodic Deep</div>
+            <div class="release-desc">One hour DJ set</div>
+            <div class="release-tags">Melodic House & Techno, Progressive House</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/lost-elements" target="_blank">
+          <div class="release-cover lost-elements-cover"></div>
+          <div class="release-details">
+            <div class="release-title">Lost Elements EP</div>
+            <div class="release-label">Halon Studios</div>
+            <div class="release-desc">Original 2 track EP</div>
+            <div class="release-tags">Techno, Dark Techno</div>
+          </div>
+        </a>
+        <a class="release" href="https://jameshalon.fanlink.to/strange-quarks-ep" target="_blank">
+          <div class="release-cover strange-quarks-cover"></div>
+          <div class="release-details">
+            <div class="release-title">Strange Quarks EP</div>
+            <div class="release-label">Halon Studios</div>
+            <div class="release-desc">Original 2 track EP</div>
+            <div class="release-tags">Techno, Dark Techno</div>
+          </div>
+        </a>
+        <a class="release" href="https://halon.fanlink.to/gk-dpng" target="_blank">
+          <div class="release-cover no-games-cover"></div>
+          <div class="release-details">
+            <div class="release-title">Don't Play No Games</div>
+            <div class="release-label">Groovy Kaiju</div>
+            <div class="release-desc">Remix</div>
+            <div class="release-tags">Nu-disco</div>
+          </div>
+        </a>
+        <a class="release" href="https://fanlink.to/crVb" target="_blank">
+          <div class="release-cover what-you-want-cover"></div>
+          <div class="release-details">
+            <div class="release-title">What You Want EP</div>
+            <div class="release-label">Halon (US) - Hush Recordz</div>
+            <div class="release-desc">Original 4 track EP, w/ a remix by Dataspirit</div>
+            <div class="release-tags">Tech House, House</div>
+          </div>
+        </a>
+        <a class="release" href="https://soundcloud.com/jameshalon/sets/2019-original-bootleg-remixes" target="_blank">
+          <div class="release-cover bootlegs-cover"></div>
+          <div class="release-details">
+            <div class="release-title">Bootlegs 2019</div>
+            <div class="release-label">Halon Studios</div>
+            <div class="release-desc">Bootleg remixes for the 2019 Graffiti Mix series</div>
+            <div class="release-tags">Tech House, House</div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section class="music-resources" id="resources">
+      <h1>Resources &amp; Newsletter</h1>
+      <div class="call-out">
+        <p>
+          I have a weekly newsletter where I share updates about my music, discuss different topics and share various
+          interests. It's also a great way for me to learn more about you. The newsletter is a two way conversation and
+          I am always interested in learning more about the people that enjoy my music and DJing. <a
+            href="./signup.html">Start the journey now!</a>
+        </p>
+        <p>
+          You can find my music at any of the following locations below. Also,
+        </p>
+      </div>
+      <br />
+      <div class="resources">
+        <a class="resource" href="https://soundcloud.com/jameshalon" target="_blank">
+          <div class="resource-logo soundcloud-logo"></div>
+          <div class="resource-details">
+            <div class="resource-title">SoundCloud</div>
+            <div class="resource-desc">Listen to my releases, mixes and other various music shares.</div>
+          </div>
+        </a>
+        <a class="resource" href="https://open.spotify.com/artist/6gNb4QYPcQc6GN6I9r8KYb?si=9lkeSMtuQ4KfzSBiW0Sp7g"
+          target="_blank">
+          <div class="resource-logo spotify-logo"></div>
+          <div class="resource-details">
+            <div class="resource-title">Spotify</div>
+            <div class="resource-desc">Listen to my official releases and remixes.</div>
+          </div>
+        </a>
+        <a class="resource" href="https://jameshalon.bandcamp.com" target="_blank">
+          <div class="resource-logo bandcamp-logo"></div>
+          <div class="resource-details">
+            <div class="resource-title">Bandcamp</div>
+            <div class="resource-desc">Listen and purchase music I have released under Halon Studios</div>
+          </div>
+        </a>
+        <a class="resource" href="https://www.beatport.com/artist/james-halon/940048" target="_blank">
+          <div class="resource-logo beatport-logo"></div>
+          <div class="resource-details">
+            <div class="resource-title">Beatport</div>
+            <div class="resource-desc">Listen and purchase my official releases and remixes.</div>
+          </div>
+        </a>
+        <a class="resource" href="https://www.twitch.tv/jameshalon" target="_blank">
+          <div class="resource-logo twitch-logo"></div>
+          <div class="resource-details">
+            <div class="resource-title">Twitch.tv</div>
+            <div class="resource-desc">Watch my livestreams every Tuesday & Thursday at 5pm Pacific</div>
+          </div>
+        </a>
+        <a class="resource" href="https://www.youtube.com/@jameshalon" target="_blank">
+          <div class="resource-logo youtube-logo"></div>
+          <div class="resource-details">
+            <div class="resource-title">YouTube</div>
+            <div class="resource-desc">Watch my livestream replays anytime. Replays are posted Wednesday & Friday
+              morning</div>
+          </div>
+        </a>
+        <a class="resource" href="https://www.mixcloud.com/JamesHalon/" target="_blank">
+          <div class="resource-logo mixcloud-logo"></div>
+          <div class="resource-details">
+            <div class="resource-title">Mixcloud</div>
+            <div class="resource-desc">Listen to my livestream replays anytime. Replays are posted Wednesday & Friday
+              morning</div>
+          </div>
+        </a>
+        <a class="resource" href="https://www.facebook.com/halondj" target="_blank">
+          <div class="resource-logo facebook-logo"></div>
+          <div class="resource-details">
+            <div class="resource-title">Facebook</div>
+            <div class="resource-desc">Postings about events, livestream reminders and new music announcements</div>
+          </div>
+        </a>
+        <a class="resource" href="https://www.instagram.com/djhalon/" target="_blank">
+          <div class="resource-logo instagram-logo"></div>
+          <div class="resource-details">
+            <div class="resource-title">Instagram</div>
+            <div class="resource-desc">Stream covers, playlists, events and other visual shares</div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section id="bio" class="biography">
+      <h1>Biography</h1>
+      <img src="assets/halon-headshot-sq.png" alt="James' Headshot" />
+      <h3>contact &amp; booking: contact @ jameshalon.com</h3>
+      <h3>promos: promos @ jameshalon.com</h3>
+      <p class="tag-line">DJ and producer of House, Melodic House, Progressive House &amp; Techno.</p>
+      <div class="call-out">
+        <p>
+          Based in Riverside CA, past residences in San Diego CA, San Francisco CA and Dallas TX.
+        </p>
+        <p>
+          Starting out under the moniker DJ3 circa 1996, James Halon was a resident at Record Resource and played events
+          in Denton and Dallas TX. Moving to San Francisco in 1999, James started weekly events with For The Music &
+          helped found the music side of <a href="https://www.false-profit.com/">False Profit</a>.
+        </p>
+        <p>
+          James ran the sound system for False Profit at 43 Norfolk and put on many amazing nights at the warehouse. He
+          has also joined forces and played with many crews and venues, including Dub Beautiful, Ambient Airlines, Space
+          Cowboys, B-Family, Eklektic, Future Breaks, Tenderloft, Tags Trance Trip, GrooveTech Radio, Anon Salon, Trust,
+          Wish, Mighty SF, DNA Lounge, 1015 Folsom, and many more.
+        </p>
+        <p>
+          2004, James co-founded <a href="http://cedub.com/">Cedub Studios</a> and moved away from DJing to focus on
+          production and engineering for local artists. During this time he helped create and launch Fake Science as a
+          podcast, then expanded to online digital music distribution and A&R. He produced tracks under the Cell Culture
+          act with Chris Walcott. He also produced tracks as The Clockmakers with DJ Yap, under the moniker DJ Bespoke.
+        </p>
+        <p>
+          In 2009, James moved from the Bay and headed to San Diego. After taking a longer than expected break to settle
+          into his new home, James is built out his studio and has returned to producing and DJing. Starting in 2020,
+          James began weekly live streams, featuring new, classic and original tracks focusing on all things House x
+          Techno. In the summer of 2021, James was invited to become a resident of the San Diego based collective <a
+            href="https://www.instagram.com/digitalcocoonsd/" target="_blank">Digital Cocoon</a>.
+        </p>
+        <p>
+          In the summer of 2022, James once again packed up and this time moved to Riverside, CA. There he has been able
+          to expand his music studio and streaming rig, allowing him more time to write, produce and play music. He
+          still regularly travels to San Diego to support and participate in <a
+            href="https://www.instagram.com/digitalcocoonsd/" target="_blank">Digital Cocoon</a> events and other area
+          shows.
+        </p>
+      </div>
+    </section>
+  </div>
+  <footer>All rights reserved, Copyright © 2018-2023</footer>
+  <!-- Drip -->
+  <script type="text/javascript">
+    var _dcq = _dcq || [];
+    var _dcs = _dcs || {};
+    _dcs.account = '4425514';
+
+    (function () {
+      var dc = document.createElement('script');
+      dc.type = 'text/javascript'; dc.async = true;
+      dc.src = '//tag.getdrip.com/4425514.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(dc, s);
+    })();
+  </script>
+  <!-- end Drip -->
+</body>
+
 </html>
