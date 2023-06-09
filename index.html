@@ -49,6 +49,34 @@
   <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=673974466465583&ev=PageView&noscript=1" /></noscript>
   <!-- End Meta Pixel Code -->
+  <script>
+    var clearFilters = function(el) {
+      el.classList.remove("original");
+      el.classList.remove("mixset");
+      el.classList.remove("remixes");
+    }
+
+    var handleChange = function(event) {
+      var el = document.querySelector('.releases');
+      clearFilters(el)
+      switch (event.target.value) {
+        case 'original':
+          el.classList.add("original");
+          break;
+
+        case 'mixset':
+          el.classList.add("mixset");
+          break;
+
+        case 'remixes':
+          el.classList.add("remixes");
+          break;
+      
+        default:
+          break;
+      }
+    }
+  </script>
 </head>
 
 <body>
@@ -106,11 +134,28 @@
           </li>
         </ul>
       </div>
+      <h2>Latest Melodic Dreams</h2>
+      <iframe class="youtube-player" width="560" height="315" src="https://www.youtube.com/embed/8ZWt2cFwKbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </section>
     <section class="releases-and-features" id="releases">
       <h1>Releases & Features</h1>
+      <select id="release_selector" onchange="handleChange(event)">
+        <option value="all">All Releases</option>
+        <option value="original">Original Tracks</option>
+        <option value="remixes">Remixes</option>
+        <option value="mixset">DJ Mix Sets</option>
+      </select>
       <div class="releases">
-        <a class="release" href="https://jameshalon.fanlink.to/fa-mixed-006" target="_blank">
+        <a class="release release-original" href="https://www.beatport.com/release/loss-of-beauty/4120941" target="_blank">
+          <div class="release-cover loss-of-beauty-cover"></div>
+          <div class="release-details">
+            <div class="release-title xtra-small">Loss of Beauty</div>
+            <div class="release-label">ThreeRecords (UK)</div>
+            <div class="release-desc">Original single with a remix by Kostiya</div>
+            <div class="release-tags">Progressive House, Melodic House, Organic House</div>
+          </div>
+        </a>
+        <a class="release release-mixset" href="https://jameshalon.fanlink.to/fa-mixed-006" target="_blank">
           <div class="release-cover fa-006-cover"></div>
           <div class="release-details">
             <div class="release-title xtra-small">Mixed 006 - James Halon</div>
@@ -119,7 +164,7 @@
             <div class="release-tags">Progressive House, Melodic House, Organic House</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/thaumaturgy" target="_blank">
+        <a class="release release-original" href="https://jameshalon.fanlink.to/thaumaturgy" target="_blank">
           <div class="release-cover thaumaturgy-cover"></div>
           <div class="release-details">
             <div class="release-title xtra-small">Thaumaturgy</div>
@@ -128,7 +173,7 @@
             <div class="release-tags">Progressive House, Melodic House, Organic House</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/mayanna" target="_blank">
+        <a class="release release-original" href="https://jameshalon.fanlink.to/mayanna" target="_blank">
           <div class="release-cover mayanna-cover"></div>
           <div class="release-details">
             <div class="release-title xtra-small">Mayanna</div>
@@ -137,7 +182,7 @@
             <div class="release-tags">Progressive House, Melodic House, Organic House</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/sound-avenue-mix-intro-2023" target="_blank">
+        <a class="release release-mixset" href="https://jameshalon.fanlink.to/sound-avenue-mix-intro-2023" target="_blank">
           <div class="release-cover SAF-An-Intro-to-2023-cover"></div>
           <div class="release-details">
             <div class="release-title xtra-small">An Intro to 2023</div>
@@ -146,7 +191,7 @@
             <div class="release-tags">Progressive House, Melodic House, Organic House</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/contemplation" target="_blank">
+        <a class="release release-original" href="https://jameshalon.fanlink.to/contemplation" target="_blank">
           <div class="release-cover contemplation-cover"></div>
           <div class="release-details">
             <div class="release-title xtra-small">Contemplation</div>
@@ -155,7 +200,7 @@
             <div class="release-tags">Progressive House, Melodic House, Organic House</div>
           </div>
         </a>
-        <a class="release" href="https://www.beatport.com/release/best-of-2022/3965656" target="_blank">
+        <a class="release release-remixes" href="https://www.beatport.com/release/best-of-2022/3965656" target="_blank">
           <div class="release-cover fa-best-of-2022-cover"></div>
           <div class="release-details">
             <div class="release-title xtra-small">Best of 2022</div>
@@ -164,7 +209,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://www.beatport.com/release/best-of-2022/3955051" target="_blank">
+        <a class="release release-original" href="https://www.beatport.com/release/best-of-2022/3955051" target="_blank">
           <div class="release-cover best-of-2022-cover"></div>
           <div class="release-details">
             <div class="release-title xtra-small">Best of 2022</div>
@@ -173,7 +218,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/synchronicity" target="_blank">
+        <a class="release release-remixes" href="https://jameshalon.fanlink.to/synchronicity" target="_blank">
           <div class="release-cover duality-cover"></div>
           <div class="release-details">
             <div class="release-title xtra-small">Duality</div>
@@ -182,7 +227,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/striations-autumn-winter" target="_blank">
+        <a class="release release-original" href="https://jameshalon.fanlink.to/striations-autumn-winter" target="_blank">
           <div class="release-cover another-life-fall-2022-cover"></div>
           <div class="release-details">
             <div class="release-title xtra-small">AUTUMN / WINTER VIBES 2022</div>
@@ -191,7 +236,7 @@
             <div class="release-tags">Progressive House, Melodic House & Techno</div>
           </div>
         </a>
-        <a class="release" href="https://on.soundcloud.com/SGwSR" target="_blank">
+        <a class="release release-remix" href="https://on.soundcloud.com/SGwSR" target="_blank">
           <div class="release-cover door-cover"></div>
           <div class="release-details">
             <div class="release-title xtra-small">Caroline Polachek - Door (James Halon Remix)</div>
@@ -199,7 +244,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://www.beatport.com/release/150-anniversary-selection/3848663" target="_blank">
+        <a class="release release-original" href="https://www.beatport.com/release/150-anniversary-selection/3848663" target="_blank">
           <div class="release-cover polyptych-150-cover"></div>
           <div class="release-details">
             <div class="release-title xtra-small">150: ANNIVERSARY SELECTION</div>
@@ -208,7 +253,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://www.beatport.com/release/summer-2022/3807919" target="_blank">
+        <a class="release release-remixes" href="https://www.beatport.com/release/summer-2022/3807919" target="_blank">
           <div class="release-cover summer-2022-cover"></div>
           <div class="release-details">
             <div class="release-title small">Summer 2022</div>
@@ -217,7 +262,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/polyptych-limited-year-two" target="_blank">
+        <a class="release release-original" href="https://jameshalon.fanlink.to/polyptych-limited-year-two" target="_blank">
           <div class="release-cover polyptych-year-two-cover"></div>
           <div class="release-details">
             <div class="release-title small">Year Two</div>
@@ -226,7 +271,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/EUPHONIOUS-REMIXES" target="_blank">
+        <a class="release release-remixes" href="https://jameshalon.fanlink.to/EUPHONIOUS-REMIXES" target="_blank">
           <div class="release-cover euphonious-remixes-cover"></div>
           <div class="release-details">
             <div class="release-title small">Euphonious (Remixes)</div>
@@ -235,7 +280,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/fallen-remixes" target="_blank">
+        <a class="release release-remixes" href="https://jameshalon.fanlink.to/fallen-remixes" target="_blank">
           <div class="release-cover fallen-remixes-cover"></div>
           <div class="release-details">
             <div class="release-title small">Fallen (Remixes)</div>
@@ -244,7 +289,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/martinec-hope" target="_blank">
+        <a class="release release-remixes" href="https://jameshalon.fanlink.to/martinec-hope" target="_blank">
           <div class="release-cover martinec-hope-cover"></div>
           <div class="release-details">
             <div class="release-title small">Hope</div>
@@ -253,7 +298,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://www.beatport.com/release/spring-2022/3702611" target="_blank">
+        <a class="release release-original" href="https://www.beatport.com/release/spring-2022/3702611" target="_blank">
           <div class="release-cover spring-2022-cover"></div>
           <div class="release-details">
             <div class="release-title small">Spring 2022</div>
@@ -262,7 +307,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/tell-you-an-history" target="_blank">
+        <a class="release release-remixes" href="https://jameshalon.fanlink.to/tell-you-an-history" target="_blank">
           <div class="release-cover tell-you-an-history-cover"></div>
           <div class="release-details">
             <div class="release-title small">Tell You An History</div>
@@ -271,7 +316,7 @@
             <div class="release-tags">Progressive House, Organic House</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/the-100-vol-2" target="_blank">
+        <a class="release release-original" href="https://jameshalon.fanlink.to/the-100-vol-2" target="_blank">
           <div class="release-cover the-100-vol-2-cover"></div>
           <div class="release-details">
             <div class="release-title small">The 100, Vol. 2</div>
@@ -280,7 +325,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://plt.polyptychmusic.com/PLTL090" target="_blank">
+        <a class="release release-original" href="https://plt.polyptychmusic.com/PLTL090" target="_blank">
           <div class="release-cover object-permenence-cover"></div>
           <div class="release-details">
             <div class="release-title small">Object Permanence</div>
@@ -289,7 +334,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/tectonic-fields" target="_blank">
+        <a class="release release-remixes" href="https://jameshalon.fanlink.to/tectonic-fields" target="_blank">
           <div class="release-cover tectonic-fields-cover"></div>
           <div class="release-details">
             <div class="release-title small">Tectonic Fields Remixes</div>
@@ -298,7 +343,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/best-of-2021" target="_blank">
+        <a class="release release-original" href="https://jameshalon.fanlink.to/best-of-2021" target="_blank">
           <div class="release-cover best-of-2021-cover"></div>
           <div class="release-details">
             <div class="release-title">Best of 2021</div>
@@ -307,7 +352,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/fallen" target="_blank">
+        <a class="release release-original" href="https://jameshalon.fanlink.to/fallen" target="_blank">
           <div class="release-cover fallen-cover"></div>
           <div class="release-details">
             <div class="release-title">Fallen</div>
@@ -316,7 +361,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/geKV" target="_blank">
+        <a class="release release-original" href="https://jameshalon.fanlink.to/geKV" target="_blank">
           <div class="release-cover elevated-cover"></div>
           <div class="release-details">
             <div class="release-title">Elevated</div>
@@ -325,7 +370,7 @@
             <div class="release-tags">Techno</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/gcTF" target="_blank">
+        <a class="release release-original" href="https://jameshalon.fanlink.to/gcTF" target="_blank">
           <div class="release-cover fall-sampler-cover"></div>
           <div class="release-details">
             <div class="release-title">Fall Sampler 2021</div>
@@ -334,7 +379,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://smarturl.it/efpw012" target="_blank">
+        <a class="release release-original" href="https://smarturl.it/efpw012" target="_blank">
           <div class="release-cover interstellar-cover"></div>
           <div class="release-details">
             <div class="release-title">Interstellar Medium</div>
@@ -343,7 +388,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://t.co/xLt1MNVhDu" target="_blank">
+        <a class="release release-original" href="https://t.co/xLt1MNVhDu" target="_blank">
           <div class="release-cover echoes-vol-2-cover"></div>
           <div class="release-details">
             <div class="release-title">Echoes Volume 2</div>
@@ -352,7 +397,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/atmoshperic-waves" target="_blank">
+        <a class="release release-original" href="https://jameshalon.fanlink.to/atmoshperic-waves" target="_blank">
           <div class="release-cover atmospheric-waves-cover"></div>
           <div class="release-details">
             <div class="release-title">Atmospheric Waves</div>
@@ -361,7 +406,7 @@
             <div class="release-tags">Techno, Melodic Techno, Progressive House</div>
           </div>
         </a>
-        <a class="release" href="https://soundcloud.com/melodicdeep/melodic-deep-talent-podcast-027-james-halon"
+        <a class="release release-mixset" href="https://soundcloud.com/melodicdeep/melodic-deep-talent-podcast-027-james-halon"
           target="_blank">
           <div class="release-cover md-talent-podcast-cover"></div>
           <div class="release-details">
@@ -371,7 +416,7 @@
             <div class="release-tags">Melodic House & Techno, Progressive House</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/lost-elements" target="_blank">
+        <a class="release release-original" href="https://jameshalon.fanlink.to/lost-elements" target="_blank">
           <div class="release-cover lost-elements-cover"></div>
           <div class="release-details">
             <div class="release-title">Lost Elements EP</div>
@@ -380,7 +425,7 @@
             <div class="release-tags">Techno, Dark Techno</div>
           </div>
         </a>
-        <a class="release" href="https://jameshalon.fanlink.to/strange-quarks-ep" target="_blank">
+        <a class="release release-original" href="https://jameshalon.fanlink.to/strange-quarks-ep" target="_blank">
           <div class="release-cover strange-quarks-cover"></div>
           <div class="release-details">
             <div class="release-title">Strange Quarks EP</div>
@@ -389,7 +434,7 @@
             <div class="release-tags">Techno, Dark Techno</div>
           </div>
         </a>
-        <a class="release" href="https://halon.fanlink.to/gk-dpng" target="_blank">
+        <a class="release release-remixes" href="https://halon.fanlink.to/gk-dpng" target="_blank">
           <div class="release-cover no-games-cover"></div>
           <div class="release-details">
             <div class="release-title">Don't Play No Games</div>
@@ -398,7 +443,7 @@
             <div class="release-tags">Nu-disco</div>
           </div>
         </a>
-        <a class="release" href="https://fanlink.to/crVb" target="_blank">
+        <a class="release release-original" href="https://fanlink.to/crVb" target="_blank">
           <div class="release-cover what-you-want-cover"></div>
           <div class="release-details">
             <div class="release-title">What You Want EP</div>
@@ -407,7 +452,7 @@
             <div class="release-tags">Tech House, House</div>
           </div>
         </a>
-        <a class="release" href="https://soundcloud.com/jameshalon/sets/2019-original-bootleg-remixes" target="_blank">
+        <a class="release release-remixes" href="https://soundcloud.com/jameshalon/sets/2019-original-bootleg-remixes" target="_blank">
           <div class="release-cover bootlegs-cover"></div>
           <div class="release-details">
             <div class="release-title">Bootlegs 2019</div>
@@ -497,6 +542,13 @@
           <div class="resource-details">
             <div class="resource-title">Instagram</div>
             <div class="resource-desc">Stream covers, playlists, events and other visual shares</div>
+          </div>
+        </a>
+        <a class="resource" href="https://www.patreon.com/jameshalon" target="_blank">
+          <div class="resource-logo patreon-logo"></div>
+          <div class="resource-details">
+            <div class="resource-title">Patreon</div>
+            <div class="resource-desc">Get access to special content, full newsletter archive, and more</div>
           </div>
         </a>
       </div>
