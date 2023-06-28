@@ -54,11 +54,12 @@
       el.classList.remove("original");
       el.classList.remove("mixset");
       el.classList.remove("remixes");
+      el.classList.remove("compilations");
     }
 
     var handleChange = function(event) {
       var el = document.querySelector('.releases');
-      clearFilters(el)
+      clearFilters(el);
       switch (event.target.value) {
         case 'original':
           el.classList.add("original");
@@ -70,6 +71,10 @@
 
         case 'remixes':
           el.classList.add("remixes");
+          break;
+
+        case 'compilations':
+          el.classList.add("compilations");
           break;
       
         default:
@@ -98,7 +103,8 @@
           I am currently running two series of live sets that air at different times. </p>
 
         <p>The first is <b>Melodic Dreams</b>, a monthly series streamed live the first weekend of the month on <a
-            href="https://www.twitch.tv/jameshalon">Twitch.tv</a> and <a
+            href="https://www.twitch.tv/jameshalon">Twitch.tv</a>, <a
+            href="https://www.kick.com/jameshalon">Kick.com</a> and <a
             href="https://www.mixcloud.com/live/JamesHalon/ ">Mixcloud Live</a>. I record the session and the replay is
           available on <a href="https://www.youtube.com/@jameshalon">YouTube</a>, <a
             href="https://soundcloud.com/jameshalon" target="_blank">SoundCloud</a> and <a
@@ -108,7 +114,8 @@
           The second series is called <b>Breakdown Therapy</b>. Unlike previous series, this is an unrecorded live
           experience focusing on being a laid back hang where I
           talk with Twitch chat and play tunes. This series is streamed every Tuesday @ 4:30pm Pacific Time on <a
-            href="https://www.twitch.tv/jameshalon">Twitch.tv</a>. Make sure to follow to get notifications when each
+            href="https://www.twitch.tv/jameshalon">Twitch.tv</a> and <a
+            href="https://www.kick.com/jameshalon">Kick.com</a>. Make sure to follow to get notifications when each
           series starts!
         </p>
         <ul class="stream-list">
@@ -139,10 +146,12 @@
     </section>
     <section class="releases-and-features" id="releases">
       <h1>Releases & Features</h1>
+      <iframe style="border-radius:12px; margin-bottom: 20px; display: block;" src="https://open.spotify.com/embed/playlist/4dY22o0Qrb7OmGosWxC5Yz?utm_source=generator&theme=0" width="560" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       <select id="release_selector" onchange="handleChange(event)">
         <option value="all">All Releases</option>
-        <option value="original">Original Tracks</option>
+        <option value="original">Original Releases</option>
         <option value="remixes">Remixes</option>
+        <option value="compilations">Compilations</option>
         <option value="mixset">DJ Mix Sets</option>
       </select>
       <div class="releases">
@@ -152,6 +161,15 @@
             <div class="release-title xtra-small">Loss of Beauty</div>
             <div class="release-label">ThreeRecords (UK)</div>
             <div class="release-desc">Original single with a remix by Kostiya</div>
+            <div class="release-tags">Progressive House, Melodic House, Organic House</div>
+          </div>
+        </a>
+        <a class="release release-compilations" href="https://futureavenue.fanlink.to/afterhours3" target="_blank">
+          <div class="release-cover afterhours-vol3-cover"></div>
+          <div class="release-details">
+            <div class="release-title xtra-small">Afterhours, Vol. 3</div>
+            <div class="release-label">Future Avenue</div>
+            <div class="release-desc">Featuring Contemplation (Original Mix)</div>
             <div class="release-tags">Progressive House, Melodic House, Organic House</div>
           </div>
         </a>
@@ -200,7 +218,7 @@
             <div class="release-tags">Progressive House, Melodic House, Organic House</div>
           </div>
         </a>
-        <a class="release release-remixes" href="https://www.beatport.com/release/best-of-2022/3965656" target="_blank">
+        <a class="release release-compilations" href="https://www.beatport.com/release/best-of-2022/3965656" target="_blank">
           <div class="release-cover fa-best-of-2022-cover"></div>
           <div class="release-details">
             <div class="release-title xtra-small">Best of 2022</div>
@@ -209,7 +227,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release release-original" href="https://www.beatport.com/release/best-of-2022/3955051" target="_blank">
+        <a class="release release-compilations" href="https://www.beatport.com/release/best-of-2022/3955051" target="_blank">
           <div class="release-cover best-of-2022-cover"></div>
           <div class="release-details">
             <div class="release-title xtra-small">Best of 2022</div>
@@ -227,7 +245,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release release-original" href="https://jameshalon.fanlink.to/striations-autumn-winter" target="_blank">
+        <a class="release release-compilations" href="https://jameshalon.fanlink.to/striations-autumn-winter" target="_blank">
           <div class="release-cover another-life-fall-2022-cover"></div>
           <div class="release-details">
             <div class="release-title xtra-small">AUTUMN / WINTER VIBES 2022</div>
@@ -244,7 +262,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release release-original" href="https://www.beatport.com/release/150-anniversary-selection/3848663" target="_blank">
+        <a class="release release-compilations" href="https://www.beatport.com/release/150-anniversary-selection/3848663" target="_blank">
           <div class="release-cover polyptych-150-cover"></div>
           <div class="release-details">
             <div class="release-title xtra-small">150: ANNIVERSARY SELECTION</div>
@@ -253,7 +271,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release release-remixes" href="https://www.beatport.com/release/summer-2022/3807919" target="_blank">
+        <a class="release release-compilations" href="https://www.beatport.com/release/summer-2022/3807919" target="_blank">
           <div class="release-cover summer-2022-cover"></div>
           <div class="release-details">
             <div class="release-title small">Summer 2022</div>
@@ -262,7 +280,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release release-original" href="https://jameshalon.fanlink.to/polyptych-limited-year-two" target="_blank">
+        <a class="release release-compilations" href="https://jameshalon.fanlink.to/polyptych-limited-year-two" target="_blank">
           <div class="release-cover polyptych-year-two-cover"></div>
           <div class="release-details">
             <div class="release-title small">Year Two</div>
@@ -298,7 +316,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release release-original" href="https://www.beatport.com/release/spring-2022/3702611" target="_blank">
+        <a class="release release-compilations" href="https://www.beatport.com/release/spring-2022/3702611" target="_blank">
           <div class="release-cover spring-2022-cover"></div>
           <div class="release-details">
             <div class="release-title small">Spring 2022</div>
@@ -316,7 +334,7 @@
             <div class="release-tags">Progressive House, Organic House</div>
           </div>
         </a>
-        <a class="release release-original" href="https://jameshalon.fanlink.to/the-100-vol-2" target="_blank">
+        <a class="release release-compilations" href="https://jameshalon.fanlink.to/the-100-vol-2" target="_blank">
           <div class="release-cover the-100-vol-2-cover"></div>
           <div class="release-details">
             <div class="release-title small">The 100, Vol. 2</div>
@@ -343,7 +361,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release release-original" href="https://jameshalon.fanlink.to/best-of-2021" target="_blank">
+        <a class="release release-compilations" href="https://jameshalon.fanlink.to/best-of-2021" target="_blank">
           <div class="release-cover best-of-2021-cover"></div>
           <div class="release-details">
             <div class="release-title">Best of 2021</div>
@@ -370,7 +388,7 @@
             <div class="release-tags">Techno</div>
           </div>
         </a>
-        <a class="release release-original" href="https://jameshalon.fanlink.to/gcTF" target="_blank">
+        <a class="release release-compilations" href="https://jameshalon.fanlink.to/gcTF" target="_blank">
           <div class="release-cover fall-sampler-cover"></div>
           <div class="release-details">
             <div class="release-title">Fall Sampler 2021</div>
@@ -388,7 +406,7 @@
             <div class="release-tags">Progressive House, Melodic House</div>
           </div>
         </a>
-        <a class="release release-original" href="https://t.co/xLt1MNVhDu" target="_blank">
+        <a class="release release-compilations" href="https://t.co/xLt1MNVhDu" target="_blank">
           <div class="release-cover echoes-vol-2-cover"></div>
           <div class="release-details">
             <div class="release-title">Echoes Volume 2</div>
@@ -582,7 +600,7 @@
         </p>
         <p>
           In 2009, James moved from the Bay and headed to San Diego. After taking a longer than expected break to settle
-          into his new home, James is built out his studio and has returned to producing and DJing. Starting in 2020,
+          into his new home, James built out his studio and has returned to producing and DJing. Starting in 2020,
           James began weekly live streams, featuring new, classic and original tracks focusing on all things House x
           Techno. In the summer of 2021, James was invited to become a resident of the San Diego based collective <a
             href="https://www.instagram.com/digitalcocoonsd/" target="_blank">Digital Cocoon</a>.

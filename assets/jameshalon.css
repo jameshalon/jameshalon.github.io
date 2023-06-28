@@ -210,6 +210,10 @@ section h1 {
   display: none;
 }
 
+.releases.compilations .release:not(.release.release-compilations) {
+  display: none;
+}
+
 .release {
   position: relative;
   padding: 10px;
@@ -361,6 +365,11 @@ section h1 {
   height: 50px;
   width: 52px;
 }
+
+.afterhours-vol3-cover {
+  background-image: url(./icons/covers/afterhours-vol3-cover.png);
+}
+
 
 .loss-of-beauty-cover {
   background-image: url(./icons/covers/loss-of-beauty-cover.png);
