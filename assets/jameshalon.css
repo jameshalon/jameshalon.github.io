@@ -570,6 +570,10 @@ section h1 {
     top: 80px;
     right: -50px;
   }
+
+  .embeded {
+    width: calc(100vw - 20px);
+  }
 }
 
 @media (max-width: 480px) {
@@ -599,6 +603,10 @@ section h1 {
   .biography img {
     margin: 10px auto 20px;
     display: block;
+  }
+
+  .embeded {
+    width: calc(100vw - 20px);
   }
 }
 
