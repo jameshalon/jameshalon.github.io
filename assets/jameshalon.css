@@ -363,8 +363,14 @@ section h1 {
   background-image: url(./icons/halon-logo-icon-1x.png);
   background-size: 50px 50px;
   height: 50px;
-  width: 52px;
+  width: 
+  52px;
 }
+
+.LLB2023-cover {
+  background-image: url(./icons/covers/LLB2023-cover.png);
+}
+
 
 .afterhours-vol3-cover {
   background-image: url(./icons/covers/afterhours-vol3-cover.png);
