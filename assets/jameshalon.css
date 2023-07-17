@@ -367,6 +367,10 @@ section h1 {
   52px;
 }
 
+.fa-018-cover {
+  background-image: url(./icons/covers/fa-018-cover.png);
+}
+
 .LLB2023-cover {
   background-image: url(./icons/covers/LLB2023-cover.png);
 }
