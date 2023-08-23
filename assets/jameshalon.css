@@ -367,6 +367,10 @@ section h1 {
   52px;
 }
 
+.shangri-la-cover {
+  background-image: url(./icons/covers/shangri-la-cover.png);
+}
+
 .fa-018-cover {
   background-image: url(./icons/covers/fa-018-cover.png);
 }
