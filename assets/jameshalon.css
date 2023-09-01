@@ -367,6 +367,10 @@ section h1 {
   52px;
 }
 
+.alan-levin-history-cover {
+  background-image: url(./icons/covers/alan-levin-history-cover.png);
+}
+
 .shangri-la-cover {
   background-image: url(./icons/covers/shangri-la-cover.png);
 }
