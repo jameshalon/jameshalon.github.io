@@ -367,6 +367,10 @@ section h1 {
   52px;
 }
 
+.jpvelardi-not-alone-cover {
+  background-image: url(./icons/covers/jpvelardi-not-alone-cover.png);
+}
+
 .alan-levin-history-cover {
   background-image: url(./icons/covers/alan-levin-history-cover.png);
 }
