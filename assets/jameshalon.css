@@ -367,6 +367,10 @@ section h1 {
   52px;
 }
 
+.hypnocubes-cover {
+  background-image: url(./icons/covers/hypnocubes-cover.png);
+}
+
 .jpvelardi-not-alone-cover {
   background-image: url(./icons/covers/jpvelardi-not-alone-cover.png);
 }
