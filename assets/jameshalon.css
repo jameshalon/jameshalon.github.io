@@ -367,6 +367,11 @@ section h1 {
   52px;
 }
 
+.session-va1-cover {
+  background-image: url(./icons/covers/session-va1-cover.png);
+}
+
+
 .hypnocubes-cover {
   background-image: url(./icons/covers/hypnocubes-cover.png);
 }
