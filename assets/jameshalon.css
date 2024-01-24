@@ -367,10 +367,13 @@ section h1 {
   52px;
 }
 
+.analog-heart-night-cover {
+  background-image: url(./icons/covers/analog-heart-night-cover.png);
+}
+
 .session-va1-cover {
   background-image: url(./icons/covers/session-va1-cover.png);
 }
-
 
 .hypnocubes-cover {
   background-image: url(./icons/covers/hypnocubes-cover.png);
